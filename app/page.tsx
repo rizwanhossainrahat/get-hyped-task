@@ -1,11 +1,20 @@
 
+import Banner from "@/components/banner/Banner";
+import Content from "@/components/content/Content";
+import Expertise from "@/components/expertise/Expertise";
+
 import Hero from "@/components/hero/Hero";
-import Image from "next/image";
+
 
 export default function Home() {
   return (
     <div>
       <Hero></Hero>
+      <Banner></Banner>
+      <Expertise></Expertise>
+    <Content></Content>
+
+
     </div>
   );
 }
