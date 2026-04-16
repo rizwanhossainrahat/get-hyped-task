@@ -1,5 +1,6 @@
 
 import Banner from "@/components/banner/Banner";
+import Brands from "@/components/brand/Brands";
 import Content from "@/components/content/Content";
 import Expertise from "@/components/expertise/Expertise";
 
@@ -13,6 +14,7 @@ export default function Home() {
       <Banner></Banner>
       <Expertise></Expertise>
     <Content></Content>
+    <Brands></Brands>
 
 
     </div>
